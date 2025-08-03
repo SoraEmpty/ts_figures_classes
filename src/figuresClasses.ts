@@ -47,7 +47,7 @@ export class Circle implements Figure {
     public color: Color,
     public radius: number,
   ) {
-    if (this.radius <= 0) {
+    if (radius <= 0) {
       throw new Error('Error');
     }
   }
